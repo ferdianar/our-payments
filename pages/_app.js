@@ -4,6 +4,7 @@ import '../styles/globals.css'
 import "../styles/css/bootstrap.css"
 
 import "bootstrap/dist/js/bootstrap.bundle"
+import "popper.js/dist/popper"
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
