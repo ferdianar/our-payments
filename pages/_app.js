@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }) {
   }, [])
   return (
     <React.Fragment>
+      <Script src="https://unpkg.com/@popperjs/core@2" />
       <Component {...pageProps} />
     </React.Fragment>
   )
