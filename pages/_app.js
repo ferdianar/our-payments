@@ -8,13 +8,15 @@ import "../styles/css/bootstrap.css"
 import "bootstrap/dist/js/bootstrap.bundle"
 import "popper.js/dist/popper"
 
+import "../js/vip/popper.min.js"
+
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     typeof document !== undefined ? require(['../js/bootstrap.min.js', '../js/popper.min.js']) : null
   }, [])
   return (
     <React.Fragment>
-      <Script src="https://unpkg.com/@popperjs/core@2" />
+      <Script src="" />
       <Component {...pageProps} />
     </React.Fragment>
   )
