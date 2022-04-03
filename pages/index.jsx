@@ -23,7 +23,7 @@ const Home = () => {
               <button className="btn btn-primary btn-lg mt-4">Get Started</button>
             </div>
             <div className="col-md-6">
-              <Image src={headingImage} />
+              <Image src={headingImage} alt={'heading'} />
             </div>
           </div>
 
@@ -34,9 +34,9 @@ const Home = () => {
               <div className="sponsors">
                 {/* <Image src={samsung} /> */}
                 {/* <Image src={oracle} /> */}
-                <Image src={morpheus} />
-                <Image src={zeppelin} />
-                <Image src={segment} />
+                <Image src={morpheus} alt={'morpheus'} />
+                <Image src={zeppelin} alt={'zeppelin'} />
+                <Image src={segment} alt={'segment'} />
               </div>
             </div>
           </div>
