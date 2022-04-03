@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Mulish";
+}
+
+.nav-link {
+    font-size: 14px;
+}
+
+.dropdown-item {
+    font-size: 14px;
+}
+
+.register {
+    margin-right: 16px;
+}
+
+.sponsors {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 50px;
+    height: 60px;
+    margin-top: 36px;
+}
