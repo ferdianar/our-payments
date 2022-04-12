@@ -1,4 +1,4 @@
-### OurPayment
+### OurPayment - Managing business payment more easly
 On Progress ....
 
 <img src="https://raw.githubusercontent.com/ferdianar/reusing-bootstrap-nextjs/master/payment.png" alt="image" />
